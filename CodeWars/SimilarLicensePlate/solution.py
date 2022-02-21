@@ -11,5 +11,5 @@ def solution(plate1,plate2):
     print(p1,p2)
     return p1 == p2
 
-print(solution("BOX","B0X"))
-print(solution("BOX","B0B"))
+print(solution("BOX","B0X")) #true
+print(solution("BOX","B0B")) #false
