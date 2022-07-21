@@ -10,8 +10,8 @@ def solution(s):
         if l % i == 0:
             equal_parts = [s[j:j+i] for j in range(0,l,i)]
             if equal_parts[1:] == equal_parts[:-1]:
-                return len(equal_parts)
+                return len(equal_parts) 
     return 1
 
-print(solution("ababxababab"))
+print(solution("abaabaabaabaaba"))
 
