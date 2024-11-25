@@ -4,6 +4,7 @@ He has heard that light bulbs are the most efficient when their serial number
 
 is an odd number
 has exactly six digits
+
 He would appreciate you writing some code that figured out which serial numbers met the criteria.
 
 When this function runs, it will receive an array of serialNumbers - something like
